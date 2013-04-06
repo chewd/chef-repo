@@ -1,0 +1,23 @@
+{
+  "name": "web",
+  "description": "",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "role[base]",
+    "recipe[php]",
+    "recipe[php::module_mysql]",
+    "recipe[apache2]",
+    "recipe[apache2::mod_php5]",
+    "recipe[apache2::mod_rewrite]",
+    "recipe[ruby]",
+    "recipe[ruby::1.9.1]",
+    "recipe[rubygems]"
+  ],
+  "env_run_lists": {
+  }
+}
