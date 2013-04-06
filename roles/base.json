@@ -5,6 +5,12 @@
   "default_attributes": {
   },
   "override_attributes": {
+    "authorization": {
+      "sudo": {
+        "groups": ["sysadmin", "devops"],
+        "passwordless": true
+      }
+    }
   },
   "chef_type": "role",
   "run_list": [
