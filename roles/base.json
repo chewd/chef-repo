@@ -8,7 +8,7 @@
     "authorization": {
       "sudo": {
         "groups": ["sysadmin"],
-        "users": ["jeet"],
+        "users": ["jeet","ch3f"],
         "passwordless": true
       }
     }
