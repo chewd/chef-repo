@@ -7,8 +7,13 @@
   "override_attributes": {
     "authorization": {
       "sudo": {
-        "groups": ["sysadmin"],
-        "users": ["jeet", "ch3f"],
+        "groups": [
+          "sysadmin"
+        ],
+        "users": [
+          "jeet",
+          "ch3f"
+        ],
         "include_sudoers_d": true,
         "passwordless": true
       }
@@ -16,7 +21,9 @@
   },
   "chef_type": "role",
   "run_list": [
+    "recipe[users]",
     "recipe[users::sysadmins]",
+    "recipe[chef-client]",
     "recipe[apt]",
     "recipe[git]",
     "recipe[build-essential]",
