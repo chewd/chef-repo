@@ -14,7 +14,6 @@
           "jeet",
           "ch3f"
         ],
-        "include_sudoers_d": true,
         "passwordless": true
       }
     }
