@@ -1,0 +1,19 @@
+{
+  "name": "proxy",
+  "description": "",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+  },
+  "override_attributes": {
+    "haproxy": {
+      "app_server_role": "web"
+    }
+  },
+  "chef_type": "role",
+  "run_list": [
+    "role[base]",
+    "recipe[haproxy::app_lb]"
+  ],
+  "env_run_lists": {
+  }
+}
