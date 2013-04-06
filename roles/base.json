@@ -7,7 +7,7 @@
   "override_attributes": {
     "authorization": {
       "sudo": {
-        "groups": ["sysadmin", "devops"],
+        "groups": ["sysadmin"],
         "users": ["jeet"],
         "passwordless": true
       }
