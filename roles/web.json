@@ -13,6 +13,7 @@
     "recipe[php::module_mysql]",
     "recipe[apache2]",
     "recipe[apache2::mod_php5]",
+    "recipe[apache2::mod_ssl]",
     "recipe[apache2::mod_rewrite]",
     "recipe[ruby]",
     "recipe[ruby::1.9.1]",
