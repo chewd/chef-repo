@@ -19,6 +19,7 @@
   },
   "chef_type": "role",
   "run_list": [
+    "recipe[sudo]",
     "recipe[users::sysadmins]",
     "recipe[chef-client]",
     "recipe[apt]",
