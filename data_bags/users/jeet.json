@@ -1,7 +1,7 @@
 {
   "id": "jeet",
   "password": "$1$OI2WyxNh$E.tLdQvrwsz2hJFEFtnjo1",
-  "ssh_keys": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDIaFOXzPDcGRV8/4oXfpArUvyh/qAypmmn9+5d2UlKBNZVQ5fTBOn2NWVQfAMEK19RJ+Pu7ZxOb2/C716RQ11x1xJchbx3ybhY4ahpH0/X8Hpl3i+eU7cbRnz0i0mpArDYArTElTOYpTgm7VxFQ9NYxaN7wWSbBMwG2CiZ6ETnKm4W/cqY/7686XKJ5Ugznd8Pd+rSFYgKX9RjC2RfdJNyRTqbJDx3/mCLob8mGCfkoxBOelo9jf9+Uy6i/ECyUu/TdcAyyNj29wN7RBWHnAjIbBktApxtMMOJ+H/simD/rS0YPvOwd6vZEY6VUABSY6n6QZp1FesTuj0VRShprUvn jeet@client.chef",
-  "groups": "sysadmin",
+  "ssh_keys": ["ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDIaFOXzPDcGRV8/4oXfpArUvyh/qAypmmn9+5d2UlKBNZVQ5fTBOn2NWVQfAMEK19RJ+Pu7ZxOb2/C716RQ11x1xJchbx3ybhY4ahpH0/X8Hpl3i+eU7cbRnz0i0mpArDYArTElTOYpTgm7VxFQ9NYxaN7wWSbBMwG2CiZ6ETnKm4W/cqY/7686XKJ5Ugznd8Pd+rSFYgKX9RjC2RfdJNyRTqbJDx3/mCLob8mGCfkoxBOelo9jf9+Uy6i/ECyUu/TdcAyyNj29wN7RBWHnAjIbBktApxtMMOJ+H/simD/rS0YPvOwd6vZEY6VUABSY6n6QZp1FesTuj0VRShprUvn jeet@client.chef"],
+  "groups": ["sysadmin"],
   "uid": 2001
 }
